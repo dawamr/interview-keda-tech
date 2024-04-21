@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+
+        <!-- Material 1 -->
+        <record id="material_1" model="material.material">
+            <field name="material_code">M001</field>
+            <field name="material_name">Material 1</field>
+            <field name="material_type">fabric</field>
+            <field name="material_buy_price">150</field>
+            <field name="supplier_id" ref="supplier_1"/>
+        </record>
+
+        <!-- Material 2 -->
+        <record id="material_2" model="material.material">
+            <field name="material_code">M002</field>
+            <field name="material_name">Material 2</field>
+            <field name="material_type">jeans</field>
+            <field name="material_buy_price">200</field>
+            <field name="supplier_id" ref="supplier_2"/>
+        </record>
+
+        <!-- Material 3 -->
+        <record id="material_3" model="material.material">
+            <field name="material_code">M003</field>
+            <field name="material_name">Material 3</field>
+            <field name="material_type">cotton</field>
+            <field name="material_buy_price">150</field>
+            <field name="supplier_id" ref="supplier_3"/>
+        </record>
+
+    </data>
+</odoo>
