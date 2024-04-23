@@ -4,17 +4,17 @@
 
         <!-- Supplier 1 -->
         <record id="supplier_1" model="material.supplier">
-            <field name="name">Supplier 1</field>
+            <field name="supplier_name">Supplier 1</field>
         </record>
 
         <!-- Supplier 2 -->
         <record id="supplier_2" model="material.supplier">
-            <field name="name">Supplier 2</field>
+            <field name="supplier_name">Supplier 2</field>
         </record>
 
         <!-- Supplier 3 -->
         <record id="supplier_3" model="material.supplier">
-            <field name="name">Supplier 3</field>
+            <field name="supplier_name">Supplier 3</field>
         </record>
 
     </data>
